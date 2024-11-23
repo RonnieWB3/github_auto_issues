@@ -19,7 +19,7 @@ jobs:
           labels: "To Do"
           
       - name: Assign Issue
-        uses: actions-ecosystem/action-assign@v2
+        uses: kentaro-m/auto-assign-action@v2.2.2
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           assignees: RonnieWB3
