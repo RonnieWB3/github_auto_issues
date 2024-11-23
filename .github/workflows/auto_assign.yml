@@ -2,10 +2,8 @@ name: Auto Assign Issue
   
 
 on:
-  pull_request:
-    types:
-      - opened
-      - reopened
+  issues:
+    types: [opened]
 
 permissions:
   issues: write
